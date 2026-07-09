@@ -18,7 +18,7 @@
         }
         .logo { font-size: 48px; margin-bottom: 12px; }
         h1 { font-size: 28px; font-weight: 700; margin-bottom: 6px; }
-        .subtitle { font-size: 16px; color: #6C6C70; margin-bottom: 48px; }
+        .subtitle { font-size: 16px; color: #6C6C70; margin-bottom: 48px; text-align: center; }
         .card {
             background: white;
             border-radius: 20px;
@@ -37,6 +37,9 @@
         .faq-item:last-child { margin-bottom: 0; }
         .faq-q { font-size: 15px; font-weight: 600; color: #1C1C1E; margin-bottom: 4px; }
         .faq-a { font-size: 14px; color: #6C6C70; line-height: 1.6; }
+        .features { list-style: none; margin-top: 12px; }
+        .features li { font-size: 14px; color: #6C6C70; line-height: 1.7; padding-left: 20px; position: relative; }
+        .features li::before { content: "—"; position: absolute; left: 0; color: #AEAEB2; }
         footer { margin-top: 40px; font-size: 13px; color: #AEAEB2; }
     </style>
 </head>
@@ -44,7 +47,7 @@
 
     <div class="logo">🌿</div>
     <h1>Makai</h1>
-    <p class="subtitle">Pomodoro & Görev Takibi · Focus & Task Tracker</p>
+    <p class="subtitle">Derin odak için Pomodoro zamanlayıcı ve görev takibi<br>Pomodoro timer & task tracker for deep focus</p>
 
     <div class="card">
         <h2>📬 İletişim / Contact</h2>
@@ -52,6 +55,29 @@
         For questions, suggestions or feedback:</p>
         <div class="divider"></div>
         <p><a href="mailto:gamz3akyuz@gmail.com">gamz3akyuz@gmail.com</a></p>
+    </div>
+
+    <div class="card">
+        <h2>✦ Özellikler / Features</h2>
+        <ul class="features">
+            <li>Pomodoro zamanlayıcı — odak, kısa ve uzun mola sürelerini özelleştir</li>
+            <li>Live Activity ile kilit ekranından zamanlayıcı takibi</li>
+            <li>Projeler ve görev takibi — öncelik, alt görev, tarih desteği</li>
+            <li>Günlük ve haftalık istatistikler</li>
+            <li>Kişisel renk temaları, dark/light mod</li>
+            <li>iCloud ile otomatik senkronizasyon</li>
+            <li>Hesap gerekmez · Reklam yok · Abonelik yok</li>
+        </ul>
+        <div class="divider"></div>
+        <ul class="features">
+            <li>Pomodoro timer — customize focus, short and long break durations</li>
+            <li>Live Activity support for lock screen timer tracking</li>
+            <li>Projects & task management — priority, subtasks, due dates</li>
+            <li>Daily and weekly statistics</li>
+            <li>Personal color themes, dark/light mode</li>
+            <li>Automatic iCloud sync across Apple devices</li>
+            <li>No account · No ads · No subscription</li>
+        </ul>
     </div>
 
     <div class="card">
@@ -79,12 +105,22 @@
         <div class="divider"></div>
         <div class="faq-item">
             <p class="faq-q">iCloud senkronizasyonu nasıl çalışır?</p>
-            <p class="faq-a">iPhone'unuzda aynı Apple ID ile iCloud'a giriş yapılmışsa verileriniz otomatik olarak senkronize olur.</p>
+            <p class="faq-a">Aynı Apple ID ile iCloud'a giriş yapılmış tüm Apple cihazlarınızda verileriniz otomatik olarak senkronize olur.</p>
         </div>
         <div class="divider"></div>
         <div class="faq-item">
             <p class="faq-q">How does iCloud sync work?</p>
-            <p class="faq-a">If you're signed in to iCloud with the same Apple ID on your devices, your data syncs automatically.</p>
+            <p class="faq-a">If you're signed in to iCloud with the same Apple ID on your devices, your data syncs automatically across all of them.</p>
+        </div>
+        <div class="divider"></div>
+        <div class="faq-item">
+            <p class="faq-q">Live Activity nedir?</p>
+            <p class="faq-a">Uygulamayı kapatsan bile zamanlayıcı kilit ekranında ve Dynamic Island'da görünmeye devam eder.</p>
+        </div>
+        <div class="divider"></div>
+        <div class="faq-item">
+            <p class="faq-q">What is Live Activity?</p>
+            <p class="faq-a">Even when the app is closed, the timer continues to appear on your lock screen and Dynamic Island.</p>
         </div>
     </div>
 
